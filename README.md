@@ -1,6 +1,6 @@
 # Bear Maps
 
-Bear Maps is a web mapping application similar to Google Maps. This project showcases a server backend capable of rendering map tiles and providing route-finding functionality between arbitrary points on the map.
+Bear Maps is a web mapping application inspired by Google Maps and [OpenStreetMap](https://www.openstreetmap.org). This project showcases a server backend capable of rendering map tiles and providing route-finding functionality between arbitrary points on the map.
 
 ## Features
 
@@ -19,7 +19,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. Clone this repo to your local machine using `https://github.com/your-username/Bear-Maps.git`.
 2. Compile the project using Maven: `mvn compile`.
-3. Run the server: `mvn exec:java -Dexec.mainClass="Main"`.
+3. Run the server: `mvn exec:java -Dexec.mainClass="MapServer"`.
 
 ## Usage
 
@@ -29,8 +29,8 @@ Once the server is running, navigate to `localhost:4567` in your web browser to 
 
 - Java
 - Apache Maven
-- JavaScript
-- HTML/CSS
+- SAX
+- XML
 
 ## Acknowledgments
 
