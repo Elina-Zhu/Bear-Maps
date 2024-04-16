@@ -4,7 +4,7 @@ Bear Maps is a web mapping application inspired by Google Maps and [OpenStreetMa
 
 ## Features
 
-| Feature              | Description                                                                                                              |
+| Function             | Description                                                                                                              |
 |----------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Map Rastering        | Dynamically renders map tiles based on the user's view, adjusting for zoom level and viewport.                            |
 | Autocomplete Search  | Suggests locations to the user as they type, utilizing a Trie for efficient prefix-matching.                              |
@@ -13,11 +13,21 @@ Bear Maps is a web mapping application inspired by Google Maps and [OpenStreetMa
 | Turn-by-Turn Navigation | Generates and displays turn-by-turn directions as part of the route-finding feature.                                      |
 | API Integration      | Interfaces with location data APIs to fetch and incorporate a wide range of location information into the map.            |
 
+Example usage of **autocomplete**:
+![Example usage of autocomplete](images/autocomplete.png)
+
+Example usage of **location search**:
+![Example usage of location search](images/selection.png)
+
+Example usage of **navigation**:
+![Example usage of navigation1](images/navigation.png)
+![Example usage of navigation2](images/navigation2.png)
+
 ## Getting Started
 
 To get a local copy up and running, follow these simple steps:
 
-1. Clone this repo to your local machine using `https://github.com/your-username/Bear-Maps.git`.
+1. Clone this repo to your local machine using `https://github.com/Elina-Zhu/Bear-Maps.git`.
 2. Compile the project using Maven: `mvn compile`.
 3. Run the server: `mvn exec:java -Dexec.mainClass="MapServer"`.
 
